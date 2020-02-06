@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>My SPA</title>
+    </head>
+    <body>
+       
+       
+       
+        <div id="SPA">
+            <navig></navig>
+        </div>
+
+        <div id="carou"></div>
+        
+    </body> 
+    <script type=text/javascript src="static/js/jquery-3.4.1.js"></script>
+    <script type=text/javascript src="static/js/bootstrap.js"></script>
+        <script type=text/javascript src="static/js/vue.js"></script>
+        <script type=text/javascript src = "static/js/main.js"></script>
+        <script>
+        
+        Vue.component('navig', {
+            template: '<nav>navbar</nav>'
+        })
+
+      
+
+        var app= new Vue({
+            el:'#SPA'
+        })
+        
+        </script>
+</html>
