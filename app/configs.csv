@@ -1,0 +1,4 @@
+Nome_campo,Produto,type,inputType,readonly,featured,required,disabled,default,valor_base,values,multi,label,model
+Nome ,PADRAO,input,text,false,true,false,false,true,Fabrício,,false,Nome ,nome
+Apólice,Seguros,input,text,false,true,false,false,true,,,false,Apólice,apolice
+bandeira_cartão,cartao,select,text,false,true,false,false,true,,"[“visa”,”mastercard”]",true,Bandeira cartão,bandeira_cartao
