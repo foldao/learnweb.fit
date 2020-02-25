@@ -61,6 +61,6 @@ class Conecta(Resource):
 if __name__ == '__main__':
     db.create_all()
     scheduler = BackgroundScheduler()
-    scheduler.add_job(func=print_date_time, trigger="interval", seconds=1)
+    scheduler.add_job(func=print_date_time, trigger="interval", seconds=10)
     scheduler.start()
     app.run()
