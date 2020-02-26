@@ -11,3 +11,4 @@ yarn-error.log
 *.njsproj
 *.sln
 learnweb_fit
+__pycache__/app.cpython-37.pyc
